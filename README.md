@@ -29,7 +29,7 @@ FULL_NODE_NILE=https://nile.trongrid.io
 PRIVATE_KEY_NILE=YOUR_PRIVATE_KEY
 
 # For proxy estimation (Base58 TRON address of logic implementation)
-LOGIC_IMPL_ADDRESS=TXdVFkKq1pUpQ9FcuWebux7E2BEjLgUXeo
+LOGIC_IMPL_ADDRESS=YOUR_IMPLEMENTATION_CONTRACT_ADDRESS
 
 # For Greeter estimation (optional)
 GREETER_TEXT=Hello from TRON
