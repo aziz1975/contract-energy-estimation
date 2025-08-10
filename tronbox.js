@@ -12,7 +12,7 @@ module.exports = {
     development: {
       privateKey: process.env.PRIVATE_KEY_DEVELOPMENT,
       consume_user_resource_percent: 100,
-      fee_limit: 196560630,
+      fee_limit: 196801838,
       fullHost: process.env.FULL_NODE_DEVELOPMENT,
       network_id: '*'
     },
