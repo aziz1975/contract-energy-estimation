@@ -1,4 +1,3 @@
-// estimateProxyEnergy.js
 require('dotenv').config();
 
 const Web3pkg     = require('web3');
