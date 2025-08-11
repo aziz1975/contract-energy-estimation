@@ -51,13 +51,13 @@ contract-energy-estimation/
 ├─ migrations/
 │  ├─ 1_deploy_logic.js     # Deploys MyToken (logic)
 │  ├─ 2_deploy_proxy.js     # Deploys Proxy with initData for MyToken
-│  └─ 3_deployGreeter.js    # Deploys Greeter (optional)
+│  └─ 3_deployGreeter.js    # Deploys Greeter
 │
 ├─ build/contracts/         # TronBox artifacts (created after compile)
 │   ...
-├─ estimateDeployEnergy.js  # Estimate energy for MyToken (no ctor args)
+├─ estimateDeployEnergy.js  # Estimate energy for MyToken (no constructor args)
 ├─ estimateProxyEnergy.js   # Estimate energy for Proxy + initData
-├─ estimateGreeterEnergy.js # Estimate energy for Greeter (ctor string)
+├─ estimateGreeterEnergy.js # Estimate energy for Greeter (constructor string)
 ├─ tronbox.js               # Networks + compiler config
 ├─ package.json
 ├─ .env
